@@ -1,6 +1,6 @@
-**PROBLEMÁTICA DE NEGOCIO**
+***PROBLEMÁTICA DE NEGOCIO***
 
-Contexto
+**Contexto**
 
 La empresa es una tienda minorista tipo Superstore que vende productos en distintas:
 
@@ -13,7 +13,7 @@ La empresa es una tienda minorista tipo Superstore que vende productos en distin
 El negocio quiere mejorar la toma de decisiones comerciales y operativas.
 
 
-Objetivo del análisis 
+**Objetivo del análisis** 
 
 Analizar el comportamiento de ventas de una tienda tipo Superstore para identificar patrones por categoría, región, segmento y productos extremos. Analizar el comportamiento de las ventas para:
 
@@ -28,7 +28,7 @@ Analizar el comportamiento de ventas de una tienda tipo Superstore para identifi
 El análisis se centra en ventas (sales) como métrica principal, debido a las limitaciones del dataset.
 
 
-Dataset
+**Dataset**
 
 
 •	Fuente: Kaggle – Superstore Sales Dataset 
@@ -56,7 +56,7 @@ Dataset
     o	Sales
     
 
-Limitaciones del dataset
+**Limitaciones del dataset**
 
 •	No se dispone de información de:
 
@@ -70,7 +70,7 @@ Limitaciones del dataset
 Estas limitaciones se tuvieron en cuenta para evitar conclusiones incorrectas.
 
 
-Proceso de limpieza de datos
+**Proceso de limpieza de datos**
 
 
 El proceso de limpieza se realizó utilizando Python (Pandas) y contempló:
@@ -89,29 +89,31 @@ El proceso de limpieza se realizó utilizando Python (Pandas) y contempló:
 
 •	Visualización (Matplotlib / Seaborn)
 
-El objetivo fue obtener un dataset apto para análisis exploratorio y visualización, sin alterar la naturaleza de los datos.
+**Nota:** El objetivo fue obtener un dataset apto para análisis exploratorio y visualización, sin alterar la naturaleza de los datos.
 
 
-Preguntas clave que el negocio necesita responder
+**Preguntas clave que el negocio necesita responder**
 
 
 Estas son las preguntas reales que justifican tu análisis:
 
-Ventas
+**Ventas**
 
 1.	¿Qué categorías y subcategorías generan más ingresos?
 2.	¿En qué regiones se vende más?
 3.	¿Qué segmentos de clientes son más valiosos?
    
-Tendencia
+**Tendencia**
+
 5.	¿Cómo evolucionan las ventas a lo largo del tiempo?
 6.	¿Existen patrones estacionales?
 
-Logística
+**Logística**
+
 7.	¿Cuánto tarda, en promedio, un pedido en ser enviado?
 8.	¿Existen regiones o categorías con mayores tiempos de envío?
 
-Enfoque de análisis
+**Enfoque de análisis**
 
 El análisis se desarrolló en cuatro bloques principales:
 1.	Análisis general de ventas
@@ -143,10 +145,10 @@ El análisis se desarrolló en cuatro bloques principales:
       o	Comparación por categoría y producto
   
 
-**CONCLUSIONES POR SEGMENTO**
+***CONCLUSIONES POR SEGMENTO***
 
 
-Ventas totales por categoría
+**Ventas totales por categoría**
 
 (ver grafico 'total sales by category' en el pdf)
 
@@ -171,7 +173,7 @@ El negocio puede:
 •	Analizar si las categorías más débiles requieren ajustes en precio, promoción o catálogo
 
 
-Ventas por Región
+**Ventas por Región**
 
 (ver grafico 'total sales by region' en el pdf)
 
@@ -187,7 +189,7 @@ Esto puede ayudar a:
 •	Enfocar esfuerzos comerciales en regiones clave
 •	Investigar por qué ciertas regiones venden menos (demanda, logística, cobertura)
 
-Ventas por segmentación de clientes
+**Ventas por segmentación de clientes**
 
 (ver grafico 'total sales by segment' en el pdf)
 
@@ -204,7 +206,7 @@ El negocio puede:
 •	Identificar su segmento más rentable
 •	Diseñar estrategias específicas para cada tipo de cliente
 
-Evolución de las ventas con el pasar del tiempo(mensual)
+**Evolución de las ventas con el pasar del tiempo(mensual)**
 
 (ver grafico 'sales' en el pdf)
 
@@ -220,7 +222,7 @@ El negocio puede:
 •	Detectar posibles temporadas altas y bajas
 •	Planificar inventario y campañas con base en el comportamiento histórico
 
-Tiempo de envió
+**Tiempo de envió**
 
 (ver grafico 'distribution of purchases over time' en el pdf)
 
@@ -236,7 +238,7 @@ El negocio puede:
 •	Mantener el estándar actual de envío
 •	Analizar los casos con mayor demora para mejorar la experiencia del cliente
 
-Distribución de ventas
+**Distribución de ventas**
 
 (ver grafico 'sales distribution' en el pdf)
 
@@ -253,9 +255,9 @@ El negocio no depende de un solo tipo de cliente:
 •	Las ventas pequeñas sostienen el volumen
 •	Las ventas grandes impulsan el ingreso total
 
-Otros gráficos
+**Otros gráficos**
 
-Productos con ventas por encima del cuantil 75%
+**Productos con ventas por encima del cuantil 75%**
 
 (ver grafico 'dispersion de ventas superiores al 75% por categoria' en el pdf)
 
@@ -268,7 +270,7 @@ El gráfico muestra que los productos de alto desempeño no están concentrados 
 Conclusión
 El negocio no depende de un único tipo de producto para generar altos ingresos. Existen categorías más fuertes, pero el éxito en ventas se reparte entre distintas líneas, lo que reduce el riesgo y abre oportunidades para potenciar varias áreas del catálogo. 
 
-Top 20 Product IDs con Ventas superiores al 75% Cuantil
+**Top 20 Product IDs con Ventas superiores al 75% Cuantil**
 
 (ver grafico 'top 20 product IDs con ventas superiores al 75% cuantil' en el pdf)
 
@@ -285,7 +287,7 @@ Pueden ser priorizados para:
 •	Gestión de inventario
 •	Un análisis adicional de estos productos (precio, margen o demanda) permitiría entender por qué sobresalen.
 
-Dispersión de Ventas Inferiores al 25% por Categoría
+**Dispersión de Ventas Inferiores al 25% por Categoría**
 
 (ver grafico 'dispersion de ventas inferiores al 25% por categoria' en el pdf)
 
@@ -298,7 +300,7 @@ Se observa que las ventas bajas también están distribuidas entre distintas cat
 Conclusión
 Existen productos con bajo rendimiento en varias categorías. Esto no implica que las categorías sean débiles, sino que ciertos productos individuales no están generando suficiente volumen de ventas y podrían requerir revisión.
 
-Top 20 Product IDs con Ventas Inferiores al 25% Cuantil
+**Top 20 Product IDs con Ventas Inferiores al 25% Cuantil**
 
 (ver grafico 'top 20 product IDs con ventas inferiores al 25% cuantil' en el pdf)
 
