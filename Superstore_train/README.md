@@ -338,7 +338,7 @@ Este comportamiento sugiere:
 •	Estabilidad en el flujo de ingresos
 •	Dependencia estratégica de ciertos productos clave
 •	Oportunidades claras de optimización en productos de bajo desempeño
-El análisis permite identificar qué productos potenciar, cuáles revisar y dónde enfocar esfuerzos comerciales, sin caer en conclusiones forzadas por falta de datos.
+
 
 **HERRAMIENTAS UTILIZADAS**
 
