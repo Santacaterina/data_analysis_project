@@ -12,29 +12,48 @@ La empresa es una tienda minorista tipo Superstore que vende productos en distin
 
 El negocio quiere mejorar la toma de decisiones comerciales y operativas.
 
+
 Objetivo del análisis 
 
 Analizar el comportamiento de ventas de una tienda tipo Superstore para identificar patrones por categoría, región, segmento y productos extremos. Analizar el comportamiento de las ventas para:
+
 •	Identificar patrones por categoría, región y segmento
+
 •	Comprender la distribución de las ventas
+
 •	Detectar productos con desempeño extremo (ventas muy altas y muy bajas)
+
 •	Extraer conclusiones accionables desde un enfoque de negocio
+
 El análisis se centra en ventas (sales) como métrica principal, debido a las limitaciones del dataset.
+
 
 Dataset
 
 •	Fuente: Kaggle – Superstore Sales Dataset 
+
 •	Link: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
 •	Registros: 9789 filas
+
 •	Columnas principales:
+
   o	Order Date
+  
   o	Ship Date
+  
   o	Category
+  
   o	Sub-Category
+  
   o	Region
+  
   o	Segment
+  
   o	Product ID
+  
   o	Sales
+  
 
 Limitaciones del dataset
 •	No se dispone de información de:
