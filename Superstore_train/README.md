@@ -338,6 +338,7 @@ Este comportamiento sugiere:
 •	Estabilidad en el flujo de ingresos
 •	Dependencia estratégica de ciertos productos clave
 •	Oportunidades claras de optimización en productos de bajo desempeño
+El negocio se sostiene por alto volumen de ventas pequeñas y pocos productos clave. Esto abre oportunidades para optimizar catálogo y estrategia comercial.
 
 
 **HERRAMIENTAS UTILIZADAS**
