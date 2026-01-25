@@ -38,22 +38,22 @@ Dataset
 
 •	Columnas principales:
 
-  o	Order Date
-  
-  o	Ship Date
-  
-  o	Category
-  
-  o	Sub-Category
-  
-  o	Region
-  
-  o	Segment
-  
-  o	Product ID
-  
-  o	Sales
-  
+    o	Order Date
+    
+    o	Ship Date
+    
+    o	Category
+    
+    o	Sub-Category
+    
+    o	Region
+    
+    o	Segment
+    
+    o	Product ID
+    
+    o	Sales
+    
 
 Limitaciones del dataset
 •	No se dispone de información de:
