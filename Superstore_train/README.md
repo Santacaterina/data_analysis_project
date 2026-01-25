@@ -3,9 +3,13 @@
 Contexto
 
 La empresa es una tienda minorista tipo Superstore que vende productos en distintas:
+
 •	Regiones
+
 •	Categorías
+
 •	Segmentos de clientes
+
 El negocio quiere mejorar la toma de decisiones comerciales y operativas.
 
 Objetivo del análisis 
