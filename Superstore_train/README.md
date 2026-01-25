@@ -30,6 +30,7 @@ El análisis se centra en ventas (sales) como métrica principal, debido a las l
 
 Dataset
 
+
 •	Fuente: Kaggle – Superstore Sales Dataset 
 
 •	Link: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
@@ -56,74 +57,119 @@ Dataset
     
 
 Limitaciones del dataset
+
 •	No se dispone de información de:
-  o	Costos
-  o	Cantidad de unidades
-  o	Margen o profit
+
+      o	Costos
+      
+      o	Cantidad de unidades
+      
+      o	Margen o profit
+      
 •	Existen valores faltantes (NaT) en columnas de fechas, especialmente en Ship Date
 Estas limitaciones se tuvieron en cuenta para evitar conclusiones incorrectas.
 
+
 Proceso de limpieza de datos
 
+
 El proceso de limpieza se realizó utilizando Python (Pandas) y contempló:
+
 •	Conversión correcta de columnas de fecha a formato datetime
+
 •	Tratamiento consciente de valores NaT, evitando su eliminación masiva para no perder más del 60% del dataset
+
 •	Estandarización de columnas categóricas (mayúsculas/minúsculas, espacios)
+
 •	Creación de variables derivadas:
-o	Año y mes de la orden
+
+    o	Año y mes de la orden
+    
 •	Validación de consistencia general del dataset
+
 •	Visualización (Matplotlib / Seaborn)
+
 El objetivo fue obtener un dataset apto para análisis exploratorio y visualización, sin alterar la naturaleza de los datos.
+
 
 Preguntas clave que el negocio necesita responder
 
+
 Estas son las preguntas reales que justifican tu análisis:
+
 Ventas
+
 1.	¿Qué categorías y subcategorías generan más ingresos?
 2.	¿En qué regiones se vende más?
 3.	¿Qué segmentos de clientes son más valiosos?
+   
 Tendencia
-4.	¿Cómo evolucionan las ventas a lo largo del tiempo?
-5.	¿Existen patrones estacionales?
+5.	¿Cómo evolucionan las ventas a lo largo del tiempo?
+6.	¿Existen patrones estacionales?
+
 Logística
-6.	¿Cuánto tarda, en promedio, un pedido en ser enviado?
-7.	¿Existen regiones o categorías con mayores tiempos de envío?
+7.	¿Cuánto tarda, en promedio, un pedido en ser enviado?
+8.	¿Existen regiones o categorías con mayores tiempos de envío?
 
 Enfoque de análisis
 
 El análisis se desarrolló en cuatro bloques principales:
 1.	Análisis general de ventas
-  o	Ventas por categoría
-  o	Ventas por región
-  o	Ventas por segmento de cliente
-2.	Análisis temporal
-  o	Evolución de ventas en el tiempo
-  o	Evaluación del impacto de datos faltantes en fechas
-  3.	Distribución de ventas
-  o	Identificación de asimetría
-  o	Detección de valores extremos (outliers)
-4.	Análisis por cuantiles
-  o	Productos con ventas superiores al cuantil 75
-  o	Productos con ventas inferiores al cuantil 25
-  o	Comparación por categoría y producto
+   
+      o	Ventas por categoría
+  	
+      o	Ventas por región
+  	
+      o	Ventas por segmento de cliente
+  	
+3.	Análisis temporal
+   
+      o	Evolución de ventas en el tiempo
+      
+      o	Evaluación del impacto de datos faltantes en fechas
+  
+  5.	Distribución de ventas
+     
+      o	Identificación de asimetría
+      
+      o	Detección de valores extremos (outliers)
+  
+7.	Análisis por cuantiles
+   
+      o	Productos con ventas superiores al cuantil 75
+      
+      o	Productos con ventas inferiores al cuantil 25
+      
+      o	Comparación por categoría y producto
+  
 
 **CONCLUSIONES POR SEGMENTO**
+
 
 Ventas totales por categoría
 
 (ver grafico 'total sales by category' en el pdf)
 
+
 Aquí se muestra:
+
 •	Diferencias claras entre categorías
+
 •	Una o dos categorías concentran la mayor parte de las ventas
+
 
 Se pudiera decir que:
 No todas las categorías aportan el mismo valor al negocio. Algunas categorías son claramente más relevantes en términos de ingresos, por ejemplo, technology la cual no solo lidera en ventas, sino que probablemente concentra los productos de mayor ticket promedio.
 
+
 Conclusión
+
 El negocio puede:
+
 •	Priorizar las categorías más fuertes
+
 •	Analizar si las categorías más débiles requieren ajustes en precio, promoción o catálogo
+
 
 Ventas por Región
 
